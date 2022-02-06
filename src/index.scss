@@ -1,0 +1,24 @@
+html {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    overflow: hidden auto;
+  }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@import "./pages/landingpage/styles/introduction.scss";
+@import "./pages/landingpage/styles/specialistTools.scss";
+@import "./pages/landingpage/styles/partner.scss";
+@import "./pages/landingpage/styles/aboutus.scss";
+@import "./pages/landingpage/styles/features.scss";
+@import "./pages/landingpage/styles/secondaryForm.scss";
+@import "./pages/landingpage/styles/footer.scss";
+@import "./pages/landingpage/styles/utilities.scss";

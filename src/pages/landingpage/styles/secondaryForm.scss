@@ -1,0 +1,79 @@
+.secondary-form {
+  @media (max-width: 768px) and (min-width: 320px) {
+    width: 288px;
+    margin: 32px 16px 0;
+    padding: 40px 0;
+  }
+
+  input {
+    padding: 8px 24px;
+    border-radius: 30px;
+    height: 38px;
+  }
+  input[name="checkbox2"] {
+    width: 16px;
+    height: 16px;
+  }
+  label[for="checkbox2"] {
+    margin: 0 8px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+
+    @media (max-width: 768px) and (min-width: 320px) {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    color: #ffffff;
+  }
+  label {
+    margin: 8px 0;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    @media (max-width: 768px) and (min-width: 320px) {
+      font-size: 13px;
+      line-height: 17px;
+    }
+
+    color: #ffffff;
+  }
+}
+.flex-column-secondary-form {
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 1650px) and (min-width: 993px) {
+    width: 256px;
+  }
+  width: 376px;
+}
+.secondary-form-checkbox {
+  margin: 40px 0 24px;
+  display: flex;
+  align-items: center;
+}
+.secondary-form-container {
+  display: flex;
+  column-gap: 24px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1576px;
+  @media (max-width: 1650px) and (min-width: 993px) {
+    width: 1096px;
+  }
+
+  @media (max-width: 768px) and (min-width: 320px) {
+    width: 288px;
+  }
+}
+.secondary-container {
+  margin-top: 88px;
+  padding: 104px 168px 98px 176px;
+  @media (max-width: 768px) and (min-width: 320px) {
+    padding: 0;
+  }
+}
